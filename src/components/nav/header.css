@@ -1,0 +1,19 @@
+/* //style={{ padding: 0, background: '#91caff' }}
+import { ConfigProvider, Button, theme } from 'antd';
+
+const App: React.FC = () => (
+  <ConfigProvider
+    theme={{
+      algorithm: theme.darkAlgorithm,
+    }}
+  >
+    <Button />
+
+
+     const { token } = useToken();
+
+  return <Button style={{ backgroundColor: token.colorPrimary fontSize: '24px'}}>Button</Button>;
+  </ConfigProvider>
+
+  style={{ fontSize: '32px' }}
+*/
