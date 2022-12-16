@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import "antd/dist/antd.css";
 
 // 1. import from react-redux and redux
-//import { configureStore } from '@reduxjs/toolkit'
+// 2. import { configureStore } from '@reduxjs/toolkit'
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
